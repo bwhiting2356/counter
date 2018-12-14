@@ -12,3 +12,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App {
+  width: 80%;
+  margin: auto;
+}
+
+.item {
+  border: 1px solid blue;
+  font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.counter-container {
+  margin-top: 30px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+input, button {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  font-size: 30px;
+
+}
+
+:disabled {
+  background: lightgrey;
+  color: black;
+  border: 1px solid red;
+}
+
+.invalid {
+  border: 1px solid red;
+}
